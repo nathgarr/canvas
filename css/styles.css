@@ -1,0 +1,25 @@
+canvas{
+    border: 1px solid black;
+    height: 400px;
+    background-color: white;
+}
+body{background-color: antiquewhite;
+
+}
+#dessin{
+    display: flex;
+}
+
+/* #palette, #outils{
+    flex: 1;
+} */
+
+#palette div, #outils div{
+    width: 65px;
+    height: 65px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
